@@ -86,3 +86,11 @@ else if (randomNumber2 > randomNumber1) {
 else {
   document.querySelector("h1").innerHTML="Draw !!!!";
 }
+
+
+
+$("#reset-button").click(function(){
+  $("h1").text("Refresh Me");
+  document.querySelector(".img1").setAttribute("src","images/dice6.png");
+  document.querySelector(".img2").setAttribute("src","images/dice6.png");
+})
